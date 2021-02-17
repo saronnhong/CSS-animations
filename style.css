@@ -1612,6 +1612,7 @@ align-items: center;
   position: relative;
   overflow: hidden;
   margin: 20px;
+  font-family: 'roboto', sans-serif;
 }
 .news_container img{
   width: 100%;
@@ -1642,14 +1643,14 @@ align-items: center;
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  text-transform: capitalize;
 }
 .h3_news{
   text-align: center;
   font-size: 16px;
+  color: #FDC518;
   padding: 20px;
-  margin-top: 20px;
-  background-color: rgba(0,0,0,0.7);
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.6);
   transform: translate(200px, -200px);
   transition: all 0.25s;
 }
@@ -1671,8 +1672,9 @@ align-items: center;
 }
 .news_button{
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #FDC518;
+  border: 2px solid white;
   font-size: 14px;
   width: 100px;
   padding: 10px;
@@ -1695,6 +1697,7 @@ align-items: center;
   overflow: hidden;
   margin: 20px;
   background-color: transparent;
+  font-family: 'roboto', sans-serif;
 }
 .fade_container img{
   width: 100%;
@@ -1731,14 +1734,14 @@ align-items: center;
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  text-transform: capitalize;
 }
 .h3_fade{
   text-align: center;
   font-size: 16px;
   padding: 20px;
-  margin-top: 20px;
-  background-color: rgba(0,0,0,0.7);
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0.75);
+  color: #FDC518;
 }
 .h3_fade, 
 .p_fade, 
@@ -1766,8 +1769,9 @@ align-items: center;
 }
 .fade_button{
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #FDC518;
+  border: 2px solid white;
   font-size: 14px;
   width: 100px;
   padding: 10px;
@@ -1789,6 +1793,7 @@ align-items: center;
   position: relative;
   overflow: hidden;
   margin: 20px;
+  font-family: 'roboto', sans-serif;
 }
 .z_plane_container img{
   width: 100%;
@@ -1818,7 +1823,6 @@ align-items: center;
   flex-direction: column;
   justify-content: space-around;
   color: white;
-  text-transform: capitalize;
 }
 .h3_z_plane, .p_z_plane{
   transform: scale(10);
@@ -1844,7 +1848,7 @@ align-items: center;
   text-align: center;
   font-size: 16px;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: rgba(0,0,0,0.7);
 }
 .z_plane_container:hover .h3_z_plane{
@@ -1863,9 +1867,10 @@ align-items: center;
 }
 .z_plane_button{
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #FDC518;
   font-size: 14px;
+  border: 2px solid white;
   width: 100px;
   padding: 10px;
   margin-bottom: 20px;
