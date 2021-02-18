@@ -1,0 +1,25 @@
+body{
+    background-color: #222;
+    margin: 0 20px 20px 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.indiv_container{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px white solid;
+    overflow: hidden;
+}
+.indiv_container:hover {
+    opacity: .8;
+}
