@@ -31,7 +31,6 @@
     position: relative;
     width: 90%;
     height: 120%;
-    /* background-color: #222; */
     background-color: transparent;
 }
 .clip{
@@ -44,13 +43,13 @@
     transition: all 0.5s;
 }
 .clip1 {
-    background: url(./hover_effects2.jpg);
+    background: url(./images/hover_effects2.jpg);
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
 }
 .clip2 {
-    background: url(./animations3.jpg);
+    background: url(./images/animations3.jpg);
     background-size:cover;
     background-position: top;
     clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
